@@ -1,6 +1,3 @@
-# **TODO!!!**
-- change wd path in notebooks (path/to/local/repo)
-
 # Landslide Susceptibility Analysis in Central Vietnam based on Statistical Index and Random Forest
 The repository contains data and Jupyter Notebooks to perform a landslide susceptibility analysis in the catchment area of the Vu Gia and Thu Bon river systems in Central Vietnam. On the one hand, a Statistical Index approach in combination with a Weighting Factor is used, oriented towards [Meinhardt et al. (2015)](https://doi.org/10.1016/j.envsoft.2023.105759), and on the other hand, a machine learning approach (Random Forest) is utilized for comparison.
 

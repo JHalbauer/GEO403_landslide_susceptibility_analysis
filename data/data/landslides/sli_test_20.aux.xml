@@ -1,0 +1,15 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>sli_test_20</Description>
+    <NoDataValue>6.55350000000000E+04</NoDataValue>
+    <Metadata>
+      <MDI key="RepresentationType">ATHEMATIC</MDI>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">753</MDI>
+      <MDI key="STATISTICS_MEAN">597.66666666667</MDI>
+      <MDI key="STATISTICS_MINIMUM">520</MDI>
+      <MDI key="STATISTICS_STDDEV">109.83725334431</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">0.001264</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

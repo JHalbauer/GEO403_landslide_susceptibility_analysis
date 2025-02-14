@@ -1,0 +1,16 @@
+<PAMDataset>
+  <Metadata domain="ESRI">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <NoDataValue>3.27670000000000E+04</NoDataValue>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">546</MDI>
+      <MDI key="STATISTICS_MEAN">268.33333333333</MDI>
+      <MDI key="STATISTICS_MINIMUM">31</MDI>
+      <MDI key="STATISTICS_STDDEV">195.94188480828</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">0.01081</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
