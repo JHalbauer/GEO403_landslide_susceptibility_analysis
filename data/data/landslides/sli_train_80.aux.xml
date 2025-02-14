@@ -1,0 +1,15 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>sli_train_80</Description>
+    <NoDataValue>6.55350000000000E+04</NoDataValue>
+    <Metadata>
+      <MDI key="RepresentationType">ATHEMATIC</MDI>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">532</MDI>
+      <MDI key="STATISTICS_MEAN">131.73529411765</MDI>
+      <MDI key="STATISTICS_MINIMUM">23</MDI>
+      <MDI key="STATISTICS_STDDEV">186.28540860789</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">0.01414</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
