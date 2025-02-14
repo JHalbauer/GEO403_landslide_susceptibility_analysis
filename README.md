@@ -15,7 +15,7 @@ The repository contains data and Jupyter Notebooks to perform a landslide suscep
 - for more information and license see data description and  [Meinhardt et al. (2015)](https://doi.org/10.1016/j.envsoft.2023.105759)
 
 ## Processing (`proc`)
-Run Jupyter Notebooks in following order!
+Run Jupyter Notebooks in the following order!
 
 ### `pre_processing.ipynb`
 - **TODO**: change working directory to `/local/path/to/403_landslide_susceptibility_analysis/` at top of file
@@ -39,7 +39,7 @@ Run Jupyter Notebooks in following order!
 ### `random_forest.ipynb`
 - **TODO**: change working directory to `/local/path/to/403_landslide_susceptibility_analysis/` at top of file
 - prepare test and training data
-- determine best feature combination (combination of input variables)
+- determine the best feature combination (combination of input variables)
 - encode categorized data for correct treatment by Random Forest
 - initialize Random Forest model with best feature combination
 - hyperparameter tuning
@@ -56,7 +56,7 @@ Run Jupyter Notebooks in following order!
 - investigate True Skill Statistics (TSS), precision and recall behaviour for different thresholds
 
 ## Created Files (`created`)
-All GeoTIFFs with "(calculated in GIS)" were derived from the original data using GIS. Slope and aspect were created using the DEM and their respective ArgGIS Pro tools. Distance to roads was calculated using Euclidean Distance and `merge_road_tracks.shp`.
+All rasters were exported as GeoTIFFs using GIS. All GeoTIFFs with "(calculated in GIS)" were derived from the original data using GIS. Slope and aspect were created using the DEM and their respective ArgGIS Pro tools. Distance to roads was calculated using Euclidean Distance and `merge_road_tracks.shp`.
 - aspect (calculated in GIS): `aspect.tif`
 - DEM: `dem.tif`
 - landcover: `landcover.tif`
@@ -70,7 +70,7 @@ All GeoTIFFs with "(calculated in GIS)" were derived from the original data usin
 - dictionary (saved as pickle file) containing categorized input rasters created/stacked in `statistical_index.ipynb`: `categorized_rasters.pkl`
 
 ### `aligned_rasters`
-Contains `pre_processing.tif` results and three rasters pre-processed in ArgGIS Pro.
+Directory where `pre_processing.ipynb` saves results as GeoTIFFS, aligned and fitted to the DEM.
 - aspect (calculated in GIS): `aspect.tif`
 - Euclidean distance to roads (calculated in GIS): `EucDist_roads_reclass.tif`
 - landcover: `landcover.tif`
@@ -83,6 +83,7 @@ Contains `pre_processing.tif` results and three rasters pre-processed in ArgGIS 
 - distance to waterbodies: `water.tif`
 
 ### `predictions`
+Directory where `statistical_index.ipynb` and `random_forest.ipynb` save the final susceptibility maps as GeoTIFFS.
 - `SI_landslide_susceptibility_map.tif`: Statistical Index based landslide susceptibility map for whole study area
 - `SI_landslide_susceptibility_map_classified.tif`: Statistical Index based classified landslide susceptibility map for whole study area
 - `RF_landslide_susceptibility_map_viewshed.tif`: Random Forest based landslide susceptibility map for whole viewshed
