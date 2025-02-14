@@ -1,0 +1,10 @@
+geopandas
+mapclassify
+matplotlib
+numpy
+pandas
+pykrige
+rasterio
+scikit-learn
+scipy
+seaborn
